@@ -1,0 +1,37 @@
+
+
+/* The main container card */
+.counter-container {
+  background-color: #ffffff; /* White background */
+  padding: 24px 30px;
+  border-radius: 10px;
+  /* A soft shadow to "lift" the card off the page */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 350px;
+}
+
+/* The text display */
+#text {
+  font-size: 1.2rem;
+  color: #333; /* Dark gray text for readability */
+  margin-bottom: 20px; /* Space between text and button */
+}
+
+/* The button */
+#button {
+  background-color: #007bff; /* A nice blue accent */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* A hover effect for the button */
+#button:hover {
+  background-color: #0056b3;
+}
